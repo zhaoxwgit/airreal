@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页 - AIRREAL</title>
+  <meta name="description" content="AIRREAL 2E 是 AIRREAL 气压式避震器系统的官方智能控制应用。与车辆控制器连接，您可以在 iPhone 上轻松完成悬架高度调节、气压监测与系统管理。">
+  <style>
+    :root {
+      --primary: #0b5cff;
+      --bg: #f6f8fc;
+      --text: #111827;
+      --muted: #6b7280;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 64px;
+    }
+    .logo { font-weight: 700; font-size: 18px; }
+    .nav a { margin-left: 18px; color: var(--muted); }
+    .nav a.active { color: var(--primary); font-weight: 600; }
+    .hero { padding: 72px 0 56px; text-align: center; }
+    .hero h1 { font-size: 42px; line-height: 1.15; margin: 0 0 16px; }
+    .hero p {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 640px;
+      margin: 0 auto 28px;
+    }
+    .buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      background: var(--primary);
+      color: #fff;
+    }
+    .btn.secondary {
+      background: #fff;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .highlight {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 36px 0;
+      text-align: center;
+    }
+    .highlight p {
+      max-width: 720px;
+      margin: 0 auto;
+      font-size: 18px;
+      color: var(--text);
+    }
+    .section { padding: 28px 0 48px; }
+    .section h2 {
+      text-align: center;
+      font-size: 26px;
+      margin: 0 0 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(17, 24, 39, 0.04);
+    }
+    .card .icon { font-size: 24px; margin-bottom: 8px; }
+    .card h3 { margin: 0 0 8px; }
+    .card p { margin: 0; color: var(--muted); }
+    footer {
+      padding: 32px 0;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+      background: #fff;
+    }
+    @media (max-width: 720px) {
+      .hero h1 { font-size: 32px; }
+      .grid { grid-template-columns: 1fr; }
+      .nav a { margin-left: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">AIRREAL</div>
+      <nav>
+        <a href="/airreal" class="active">首页</a>
+        <a href="/airreal/about">技术支持</a>
+        <a href="/airreal/privacy">隐私政策</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>AIRREAL 2E</h1>
+      <p>
+        AIRREAL 气压式避震器系统的官方智能控制应用。与车辆控制器连接，
+        您可以在 iPhone 上轻松完成悬架高度调节、气压监测与系统管理。
+      </p>
+      <div class="buttons">
+        <a class="btn" href="https://apps.apple.com/" target="_blank" rel="noopener">App Store 下载</a>
+        <a class="btn secondary" href="/airreal/about">获取支持</a>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="container">
+        <p>
+          直连您的 AIRREAL 空气悬架系统，实时查看气压与储气罐数值，
+          一键切换预设高度，让每一次驾驶都平稳如初。
+        </p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2>核心功能</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>两通道独立气压实时显示</h3>
+          <p>左右通道气压独立监测，数值实时刷新，精准掌握悬架当前状态。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎚️</div>
+          <h3>一键预设高度记忆</h3>
+          <p>保存常用车身高度，一键切换预设，告别繁琐的手动调节。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛡️</div>
+          <h3>空压机保护机制</h3>
+          <p>智能温控与过载保护，避免空压机长时间高负荷运行，延长使用寿命。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🔗</div>
+          <h3>与有线控制器协同</h3>
+          <p>App 与有线控制器无缝协同，双重操控方式，随时随地安心掌控。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 AIRREAL 2E. 保留所有权利。联系：
+      <a href="mailto:zhaoxwxl@sina.cn">zhaoxwxl@sina.cn</a>
+    </div>
+  </footer>
+</body>
+</html>

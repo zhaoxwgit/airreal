@@ -1,0 +1,50 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "collection",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/collection-1.19.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/path-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/source_span-1.10.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/string_scanner-1.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/term_glyph-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/yaml-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_server",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.11"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.11.4",
+  "pubCache": "file:///C:/Users/xwzhao/AppData/Local/Pub/Cache"
+}

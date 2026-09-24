@@ -1,0 +1,30 @@
+# 静态 Web 服务器配置
+# ============================================================
+
+# 服务监听地址与端口
+# 部署到服务器时 host 必须用 0.0.0.0,否则只能本机访问
+server:
+  host: 0.0.0.0
+  port: 8088
+
+# 静态目录映射: 把 URL 前缀映射到本地磁盘目录
+# 访问 /static/css/style.css 会读取 ./public/css/style.css
+static_dirs:
+  - url: /static
+    dir: ./public
+
+# 页面路由: 把 URL 路径映射到本地 HTML/JSON 文件
+# 可显式指定 content_type,不指定则按文件扩展名自动推断
+pages:
+  - route: /airreal
+    file: ./pages/airreal_index.html
+  - route: /airreal/about
+    file: ./pages/airreal_about.html
+  - route: /airreal/privacy
+    file: ./pages/airreal_privacy.html
+  - route: /api/info
+    file: ./pages/info.json
+    content_type: application/json; charset=utf-8
+
+# 404 页面 (未匹配任何路由时的兜底页面)
+not_found: ./pages/404.html

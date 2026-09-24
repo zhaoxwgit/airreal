@@ -1,0 +1,7 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "language": "Dart",
+  "configured_via": "yaml",
+  "endpoints": ["/", "/about", "/api/info"]
+}

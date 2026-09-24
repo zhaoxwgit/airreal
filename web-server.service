@@ -1,0 +1,16 @@
+[Unit]
+Description=WEB Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/web_server
+ExecStart=/root/web_server/web_server /root/web_server/config.yaml
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/root/web_server/server.log
+StandardError=append:/root/web_server/server.log
+
+[Install]
+WantedBy=multi-user.target

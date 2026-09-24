@@ -1,0 +1,29 @@
+body {
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  border-bottom: 2px solid #3366cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+header h1 {
+  margin: 0 0 0.3rem 0;
+  color: #3366cc;
+}
+nav a {
+  color: #3366cc;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+code {
+  background: #f3f3f3;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
